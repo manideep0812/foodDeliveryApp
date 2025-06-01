@@ -1,0 +1,85 @@
+Customer - 
+ -Login Page 
+	-Name
+	-Phone no
+	-email
+	-Address
+
+Restaurent - 
+ -Adding restaurent to App
+ -Onboarding Details
+	-Name
+	-Gst details
+	-address
+	-Dishes
+		-description
+		-prices
+		-estimated time
+	
+Delivery boy-
+	-Login Page
+		-Name
+		-phone no
+		-Address
+		-ID details
+		-License and vehicle details
+		-KYC
+
+
+Onboarded Restaurents - 
+ -Features
+	-Toggle for availability
+	-add new items
+	-tracking orders(delivery boys assigned)
+	-Updating prices for dishes
+
+Onboarded Customers-
+ -Main page
+	-search or ask for a dish or restaurent
+		-if customer searches for dish
+			-list of restaurents with that dish
+			-Prices and ratings
+		-if customer searched for restaurent
+			-list of all items in that restaurent
+			-prices and ratings
+ -After selecting the dish
+	-selected quantity
+	-any instructions to restaurent
+	-any offers or coupons
+	-estimated delivery time
+	-confirm address
+	-total price after tax
+	-Payment methods
+		-if card option is selected
+			 -Payment Page
+				-card number
+				-CVV
+				-name
+				-OTP
+		-if UPI is selected
+			-Payment Page
+				-UPI ID
+				-confirm and pay from app
+After Placing Order - 
+	Customer-
+		-Payment Confirmation
+		-Order updates from restaurent(received and cooking)
+		-Delivery partner assigned or not
+		-Tracking Order
+		-Cancel option
+	Restaurent-
+		-Order details with instructions
+		-estimated time
+		-delivery boys assigned or not
+		-Customer details
+
+	Delivery Boy
+		-order details	
+		-Restaurent name
+		-Restaurent Address
+		-Customer details
+
+
+
+
+
