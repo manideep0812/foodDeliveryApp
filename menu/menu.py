@@ -1,7 +1,7 @@
-import generateID
+from generateID import generateID
 
 class Menu:
-        def __init__(self,name,price,rating,isAvailable,description,category,restaurentId,deliveryTime):
+        def __init__(self,name:str,price:int,rating:float,isAvailable:bool,description:str,category:str,restaurentId,deliveryTime:int):
             self.name= name
             self.price= price
             self.rating= rating
@@ -17,6 +17,9 @@ class Menu:
 
         def updatePrice(self,updatedprice):
             self.price = updatedprice
+        
+        def getCategory(self):
+            return self.category
 
         def getPrice(self):
             return self.price
