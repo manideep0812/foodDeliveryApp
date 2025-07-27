@@ -1,16 +1,16 @@
 from cart.cartItems import cartItems
-from menu.menu import Menu
+from menu.menuDecorator import menuDecorator
 
 
 class cart:
     totalAmount= 0
     cartitems = []
 
-    def addToCart(self,menu:Menu,quantity):
+    def addToCart(self,menu:menuDecorator,quantity):
         self.cartitems.append(cartItems(menu,quantity))
         self.calculateTotal()
     
-    def removeFromCart(self,menu:Menu,quantity):
+    def removeFromCart(self,menu:menuDecorator,quantity):
         for item in self.cartitems:
             if item.item == menu:
                 if item.quantity > quantity:

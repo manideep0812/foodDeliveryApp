@@ -18,11 +18,11 @@ class Menu:
         def updatePrice(self,updatedprice):
             self.price = updatedprice
         
-        def getCategory(self):
+        def getCategory(self) -> str:
             return self.category
 
-        def getPrice(self):
+        def getPrice(self) -> int:
             return self.price
         
-        def getDescription(self):
+        def getDescription(self) -> str:
             return self.description

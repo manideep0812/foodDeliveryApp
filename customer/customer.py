@@ -13,5 +13,5 @@ class customer:
         self.cart = cart()
 
     def placeOrder(self) -> order:
-        cus_order = order(self.cart.totalAmount,self.cart,self.userId,self.address,self.cart.cartitems[0].item.restaurantId)
+        cus_order = order(self.cart.totalAmount,self.cart,self.userId,self.address,self.cart.cartitems[0].item.menu.restaurantId)
         return cus_order
